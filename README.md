@@ -7,6 +7,7 @@ The structure of this repository is shown below.
 ├── 2.seq_generation
 ├── 3.surveillance_subsampling
 ├── 4.xml_file_template
+├── 5.inference_performance
 ├── seq_accession_identifiers
 ├── README.md
 ```
