@@ -1,15 +1,24 @@
 # Impact of heterogeneous genomic surveillance and data sharing on spatiotemporal origin inference of infectious disease outbreaks
 
-# Epi_model
-The meta-population SEIR model we used in this study.
+## Repository structure and usage
+The structure of this repository is shown below. 
+```
+├── 1.epi_model
+├── 2.seq_generation
+├── 3.surveillance_subsampling
+├── 4.xml_file_template
+├── seq_accession_identifiers
+├── README.md
+```
 
-# xml_file_template
+# xml_file_template/templates
 Template for phylogenetic analysis: BEAST1_tree_template.xml
 
 Template for phylogeographic analysis: BEAST1_geo_template.xml
 
 Template for travel history-informed phylogeographic analysis: BEAST1_geotravel_template.xml
 
+Template for joint phylogenetic and phylogeographic analyses under a structured coalescent approximation framewrok: BIT_ScaExpPerDemeSameRate_template.xml
 
 
 <h1> License </h1>
@@ -26,4 +35,4 @@ Noncommercial means not primarily intended for or directed towards commercial ad
 
 SA: Adaptations must be shared under the same terms.
 
-Copyright (c) 2025 Zhiyuan Chen
+Copyright (c) 2026 Zhiyuan Chen
